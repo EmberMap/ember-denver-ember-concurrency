@@ -1,0 +1,28 @@
+<div class="Search">
+  <div class="Box">
+
+    <h1>Search</h1>
+
+    {{input
+      value=searchText
+      key-up=(perform search)
+      class="Search-input"
+      placeholder="What are you looking for?"}}
+
+    {{#if isSlowQuery}}
+      <div class="Slow-query">
+        {{fa-icon "spinner" spin=true}}
+        The Internet is a little slow today, hold on...
+      </div>
+    {{/if}}
+
+    <div class="Result">
+      {{#each result as |product|}}
+        <div class="Product">
+          {{product}}
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+

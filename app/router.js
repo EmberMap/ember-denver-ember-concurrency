@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('no-ec');
+  this.route('ec');
 });
 
 export default Router;

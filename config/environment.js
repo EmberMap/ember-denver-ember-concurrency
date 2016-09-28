@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ec-talk',
     environment: environment,
+    podModulePrefix: 'ec-talk/pods',
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
