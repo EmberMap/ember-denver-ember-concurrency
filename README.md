@@ -23,7 +23,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:EmberMap/ember-denver-ember-concurrency.git` this repository
 * `cd ec-talk`
 * `npm install`
 * `bower install`
