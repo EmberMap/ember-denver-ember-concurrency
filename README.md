@@ -6,6 +6,11 @@ This is the source code used for the Ember Concurrency talk. There are
 two components that can be used to create an auto completing input--one
 that uses Ember Concurrency and one that doesn't.
 
+# Slides
+
+The [slides for this
+talk](http://www.slideshare.net/secret/HQKmm8T2TcLKj6) are on slideshare.
+
 # EmberMap video
 
 EmberMap's course on Ember Concurrency can be [purchased
